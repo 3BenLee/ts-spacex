@@ -10,7 +10,7 @@ import LaunchItems from './LaunchItems'
 // }
 
 interface IState {
-  pastLaunches: string[]
+  readonly pastLaunches: any[]
 }
 
 // class Launches extends React.Component<ILaunches, IState> {
