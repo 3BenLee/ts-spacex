@@ -26,36 +26,8 @@ class Launches extends React.Component<{}, IState> {
       });
   }
 
-  toggleSeeMore = () => {
-
-  }
-
   render() {
-    const launches: any[] = [];
-    const clippedLaunches: any[] = [];
-    const launchData = this.state.pastLaunches;
-    const clipNumber = 4;
-
-    if (launchData) {launchData.map((launch: any) => {
-      launches.push(
-        <LaunchItems
-          key={launch.id}
-          title={launch.mission_name}
-          number={launch.flight_number}
-          year={launch.launch_year}
-          date={launch.launch_date_local}
-        />)}
-
-    if (launches > clipNumber) {
-      this.setState(launches.slice(0,4)
-
-    }
-
-      return <React.Fragment>
-        {this.state.clippedLaunches}
-        <Button onClick={this.toggleSeeMore()} />
-        </React.Fragment>
-      }
+    return <Button />;
   }
 }
 
