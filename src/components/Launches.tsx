@@ -22,7 +22,7 @@ class Launches extends React.Component<{}, IState> {
       })
       .then(data => {
         this.setState({ pastLaunches: data });
-        console.log("fetch", data);
+        console.log("shit", data);
       });
   }
 
