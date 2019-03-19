@@ -30,6 +30,7 @@ class Launches extends React.Component<{}, IState> {
     return (
     <div>
       <h2>I love git</h2>
+      <h3>I hate git!</h3>
       <Button />
     </div>
 
