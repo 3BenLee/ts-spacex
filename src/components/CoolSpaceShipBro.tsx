@@ -38,7 +38,6 @@ class Launches extends React.Component<{}, IState, any> {
         <h2>I love git</h2>
         <h3>I hate git! Yes , No?</h3>
         <p>Ben has a spaceship!</p>
-        <h2>I love git</h2>
         <h3>I hate git! Yes , No?</h3>
         <p>Ben has a spaceship!</p>
         <Button />
