@@ -1,5 +1,4 @@
 import * as React from "react";
-import LaunchItems from "./LaunchItems";
 import { Button } from "react-bootstrap";
 
 interface IState {
