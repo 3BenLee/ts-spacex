@@ -34,6 +34,10 @@ class Launches extends React.Component<{}, IState> {
         <h1>It's too late.</h1>
         <p>Boo!</p>
         <h2>it's nice weather today.</h2>
+        <h2>git is gitting easier.</h2>
+        <p>No, it's not!</p>
+        <h1>I want ice cream!</h1>
+        <h2>and pizza!</h2>
         <Button />
       </div>
     );
