@@ -28,12 +28,12 @@ class Launches extends React.Component<{}, IState> {
 
   render() {
     return (
-    <div>
-      <h2>I love git</h2>
-      <h3>I hate git!</h3>
-      <Button />
-    </div>
-
+      <div>
+        <h2>I love git</h2>
+        <h3>I hate git!</h3>
+        <Button />
+      </div>
+    );
   }
 }
 
