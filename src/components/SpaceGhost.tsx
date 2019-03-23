@@ -1,9 +1,15 @@
 import * as React from "react";
-import { Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
-export default function SeeMoreButton(props: any) {
+export default function LaunchItem(props: any) {
   return (
-  <Button variant='info' onClick={this.props.clicked} />
-  <Button variant='info' onClick={this.props.clicked} />
-  <Button variant='info' onClick={this.props.clicked} />
+    <Card style={{ width: "30rem" }}>
+      <Card.Body>
+        <Card.Title>{props.title}</Card.Title>
+        <Card.Subtitle className='mb-2 text-muted'>{props.year}</Card.Subtitle>
+        <Card.Text>{props.date}</Card.Text>
+        <Card.Text>flight number: {props.number}</Card.Text>
+      </Card.Body>
+    </Card>
+  );
 }
